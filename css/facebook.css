@@ -1,0 +1,55 @@
+/* =====페이스북 디자인===== */
+@media (max-width: 767px) {
+    .aside-facebook {display: none;}
+}
+
+.section-facebook {
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+}
+
+.section-facebook > .fb-btn {
+    overflow: hidden;
+}
+
+.section-facebook > .fb-btn > .left {
+    float: left;
+}
+.section-facebook > .fb-btn > .right {
+    float: right;
+}
+
+.title-inner {position: relative; margin-bottom: 10px;}
+
+.title-inner > .profile {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title-inner > .title {
+    padding-left: 60px;
+}
+
+.section-facebook > .like-inner {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    margin-top: 10px;
+}
+
+.section-facebook > .button-inner {
+    overflow: hidden;
+    border-bottom: 1px solid #777;
+}
+.section-facebook > .button-inner  a {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+}
+
+.section-facebook > .center-textarea, .section-facebook > .fb-btn {
+    margin-bottom: 10px;
+}

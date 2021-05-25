@@ -1,0 +1,124 @@
+.detail-img, .detail-cnt {
+    border: 0px solid #fff;
+}
+
+.detail-cnt > .detail-control > .total-price {
+    overflow: hidden;
+}
+
+.total-price > .left {
+    float: left;
+    font-size: 18px;
+}
+.total-price > .right {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail-cnt > .detail-btn {
+    overflow: hidden;
+}
+.detail-cnt > .detail-btn > button {
+    float: left;
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+}
+
+.detail-cnt > .detail-title {font-size: 24px;}
+.detail-cnt > .price {font-size: 30px;}
+.detail-cnt > .delivary {color: #888;}
+
+.detail-item > .title {
+    font-size: 20px;
+}
+.detail-item > .price {
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 10px 0;
+}
+.detail-item > .delivary {
+    color: #888;
+}
+.detail-button > .price {
+    overflow: hidden;
+    line-height: 42px;
+}
+.detail-button > .price > .left {
+    float: left;
+    margin: 0;
+}
+.detail-button > .price > .right {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail-button > .order {
+    overflow: hidden;
+}
+.detail-button > .order > .left {
+    float: left;
+    height: 60px;
+    width: 50%;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.detail-item {
+    min-height: 355px;
+}
+
+/* =====댓글영역===== */
+.reply-wrap {
+    border: 1px solid #d2d2d2;
+    background-color: #f5f5f5;
+    padding: 20px;
+    position: relative;
+}
+
+.reply-wrap > .reply-img {
+    position: absolute;
+}
+
+.reply-wrap > .reply-content {
+    padding-left: 60px;
+}
+
+.reply-content > .form-control {
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+.reply-group > .form-control {
+    width: 150px;
+}
+.reply-group {overflow: hidden;}
+.reply-group > .left {float: left;}
+.reply-group > .right {float: right;}
+
+.reply-group input[type="text"] {margin-bottom: 10px;}
+
+.reply-content textarea {
+    height: 80px;
+    transition: all 0.5s ease-in-out;
+}
+.reply-content textarea:focus {
+    height: 150px;
+}
+
+.reply-content strong, .reply-content small {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+.reply-content a {
+    float: right;
+    text-decoration: none;
+    color: #333;
+}
+
+.reply-content p {margin: 0;}
